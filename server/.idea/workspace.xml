@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bec01bd9-34df-4fb9-be32-7998fe818d4d" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="server" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+              <folding>
+                <element signature="e#311#312#0" expanded="true" />
+                <element signature="e#340#341#0" expanded="true" />
+                <element signature="e#384#385#0" expanded="true" />
+                <element signature="e#420#421#0" expanded="true" />
+                <element signature="e#451#452#0" expanded="true" />
+                <element signature="e#480#481#0" expanded="true" />
+                <element signature="e#522#523#0" expanded="true" />
+                <element signature="e#558#559#0" expanded="true" />
+                <element signature="e#589#590#0" expanded="true" />
+                <element signature="e#618#619#0" expanded="true" />
+                <element signature="e#660#661#0" expanded="true" />
+                <element signature="e#696#697#0" expanded="true" />
+                <element signature="e#734#735#0" expanded="true" />
+                <element signature="e#768#769#0" expanded="true" />
+                <element signature="e#822#823#0" expanded="true" />
+                <element signature="e#868#869#0" expanded="true" />
+                <element signature="e#901#902#0" expanded="true" />
+                <element signature="e#930#931#0" expanded="true" />
+                <element signature="e#974#975#0" expanded="true" />
+                <element signature="e#1010#1011#0" expanded="true" />
+                <element signature="e#1043#1044#0" expanded="true" />
+                <element signature="e#1072#1073#0" expanded="true" />
+                <element signature="e#1116#1117#0" expanded="true" />
+                <element signature="e#1152#1153#0" expanded="true" />
+                <element signature="e#1185#1186#0" expanded="true" />
+                <element signature="e#1214#1215#0" expanded="true" />
+                <element signature="e#1258#1259#0" expanded="true" />
+                <element signature="e#1294#1295#0" expanded="true" />
+                <element signature="e#1332#1333#0" expanded="true" />
+                <element signature="e#1369#1370#0" expanded="true" />
+                <element signature="e#1426#1427#0" expanded="true" />
+                <element signature="e#1478#1479#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/entry/MultiThreadChatServerSync.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/entry/ClientThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="69" column="21" lean-forward="true" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>insertTouristicAttraction</find>
+      <find>ResultSet</find>
+      <find>userCanRegister</find>
+      <find>connec</find>
+      <find>for</find>
+      <find>socket</find>
+      <find>emp</find>
+      <find>success</find>
+      <find>jdbcQuery</find>
+      <find>preparedStatement</find>
+      <find>&lt;</find>
+      <find>flux_entree</find>
+      <find>flux_</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/algo/PositionTest.groovy" />
+        <option value="$PROJECT_DIR$/src/algo/PositionUserTest.java" />
+        <option value="$PROJECT_DIR$/src/algo/PositionUser.java" />
+        <option value="$PROJECT_DIR$/src/connection/ClientConnection.java" />
+        <option value="$PROJECT_DIR$/src/jdbc/jdbcConnection.java" />
+        <option value="$PROJECT_DIR$/src/jdbc/JdbcConnectionTest.java" />
+        <option value="$PROJECT_DIR$/src/model/Visite.java" />
+        <option value="$PROJECT_DIR$/src/model/Equipment.java" />
+        <option value="$PROJECT_DIR$/src/model/Point2D.java" />
+        <option value="$PROJECT_DIR$/src/businessLayer/PositionUserTest.java" />
+        <option value="$PROJECT_DIR$/src/model/types/EquipmentType.java" />
+        <option value="$PROJECT_DIR$/src/controller/ClientConnection.java" />
+        <option value="$PROJECT_DIR$/src/model/Place.java" />
+        <option value="$PROJECT_DIR$/src/controller/PolygonControl.java" />
+        <option value="$PROJECT_DIR$/src/tests/PlaceControlTest.java" />
+        <option value="$PROJECT_DIR$/src/model/types/Polygon.java" />
+        <option value="$PROJECT_DIR$/src/controller/PlaceControl.java" />
+        <option value="$PROJECT_DIR$/src/model/types/PlaceType.java" />
+        <option value="$PROJECT_DIR$/src/controller/UserControl.java" />
+        <option value="$PROJECT_DIR$/../../../clientConnectionTest/src/Client2TCP.java" />
+        <option value="$PROJECT_DIR$/src/tests/JdbcConnectionTest.java" />
+        <option value="$PROJECT_DIR$/../../../clientConnectionTest/src/ServerTCP.java" />
+        <option value="$PROJECT_DIR$/../../../clientConnectionTest/src/ClientTCP.java" />
+        <option value="$PROJECT_DIR$/../../../clientConnectionTest/src/ConnectionTest.java" />
+        <option value="$PROJECT_DIR$/../../../clientConnectionTest/src/Connection.java" />
+        <option value="$PROJECT_DIR$/src/businessLayer/model/User.java" />
+        <option value="$PROJECT_DIR$/src/businessLayer/UserBuilder.java" />
+        <option value="$PROJECT_DIR$/src/tests/UserBuilderTest.java" />
+        <option value="$PROJECT_DIR$/src/controller/ClientThread.java" />
+        <option value="$PROJECT_DIR$/src/controller/ClientsConnection.java" />
+        <option value="$PROJECT_DIR$/src/controller/Entry.java" />
+        <option value="$PROJECT_DIR$/src/controller/MultiThreadChatServerSync.java" />
+        <option value="$PROJECT_DIR$/src/businessLayer/PositionUser.java" />
+        <option value="$PROJECT_DIR$/src/businessLayer/model/Visite.java" />
+        <option value="$PROJECT_DIR$/src/tests/EntryTest.java" />
+        <option value="$PROJECT_DIR$/src/entry/Entry.java" />
+        <option value="$PROJECT_DIR$/src/model/UserBuilder.java" />
+        <option value="$PROJECT_DIR$/src/tests/PositionUserTest.java" />
+        <option value="$PROJECT_DIR$/src/entry/MultiThreadChatServerSync.java" />
+        <option value="$PROJECT_DIR$/src/jdbc/JdbcConnection.java" />
+        <option value="$PROJECT_DIR$/src/model/User.java" />
+        <option value="$PROJECT_DIR$/src/tests/JdbcPersistenceTest.java" />
+        <option value="$PROJECT_DIR$/src/tests/UserControlTest.java" />
+        <option value="$PROJECT_DIR$/src/entry/UserControl.java" />
+        <option value="$PROJECT_DIR$/src/tests/BusinessLayerTest.java" />
+        <option value="$PROJECT_DIR$/src/jdbc/JdbcQuery.java" />
+        <option value="$PROJECT_DIR$/src/jdbc/JdbcPersistence.java" />
+        <option value="$PROJECT_DIR$/src/tests/JdbcQueryTest.java" />
+        <option value="$PROJECT_DIR$/src/entry/PasswordGenerator.java" />
+        <option value="$PROJECT_DIR$/src/entry/ClientThread.java" />
+        <option value="$PROJECT_DIR$/src/entry/BusinessLayer.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="567" />
+    <option name="y" value="-14" />
+    <option name="width" value="697" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="entry" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578583024521" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../client" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="tests" />
+      <recent name="" />
+      <recent name="jdbc" />
+      <recent name="algo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\u166439\Desktop\projets-informatique\server\src" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\u166439\Desktop\projets-informatique\projet-m1\server\src\jdbc" />
+      <recent name="C:\Users\u166439\Desktop\projets-informatique\projet-m1\server\src" />
+      <recent name="C:\Users\u166439\Desktop\projets-informatique\projet-m1\server" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.MultiThreadChatServerSync">
+    <configuration name="MultiThreadChatServerSync" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="entry.MultiThreadChatServerSync" />
+      <module name="server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="entry.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PasswordGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="entry.PasswordGenerator" />
+      <module name="server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="entry.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdbcQueryTest.IncNbAuthEchouees" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.JdbcQueryTest" />
+      <option name="METHOD_NAME" value="IncNbAuthEchouees" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdbcQueryTest.resetNbAuth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.JdbcQueryTest" />
+      <option name="METHOD_NAME" value="resetNbAuth" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdbcQueryTest.setNbAuthEch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.JdbcQueryTest" />
+      <option name="METHOD_NAME" value="setNbAuthEch" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MultiThreadChatServerSync" />
+        <item itemvalue="JUnit.JdbcQueryTest.IncNbAuthEchouees" />
+        <item itemvalue="JUnit.JdbcQueryTest.setNbAuthEch" />
+        <item itemvalue="JUnit.JdbcQueryTest.resetNbAuth" />
+        <item itemvalue="Application.PasswordGenerator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bec01bd9-34df-4fb9-be32-7998fe818d4d" name="Default Changelist" comment="" />
+      <created>1557914958295</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557914958295</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="JdbcQueryTest_resetNbAuth - 2020.01.08 at 14h 04m 22s.xml">
+      <configuration name="JdbcQueryTest.resetNbAuth" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JdbcQueryTest_resetNbAuth - 2020.01.08 at 14h 06m 40s.xml">
+      <configuration name="JdbcQueryTest.resetNbAuth" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JdbcQueryTest_resetNbAuth - 2020.01.08 at 14h 08m 41s.xml">
+      <configuration name="JdbcQueryTest.resetNbAuth" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JdbcQueryTest_resetNbAuth - 2020.01.08 at 14h 09m 49s.xml">
+      <configuration name="JdbcQueryTest.resetNbAuth" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JdbcQueryTest_resetNbAuth - 2020.01.08 at 14h 10m 44s.xml">
+      <configuration name="JdbcQueryTest.resetNbAuth" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JdbcQueryTest_setNbAuthEch - 2020.01.08 at 14h 36m 02s.xml">
+      <configuration name="JdbcQueryTest.setNbAuthEch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JdbcQueryTest_IncNbAuthEchouees - 2020.01.08 at 14h 36m 25s.xml">
+      <configuration name="JdbcQueryTest.IncNbAuthEchouees" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JdbcQueryTest_IncNbAuthEchouees - 2020.01.08 at 14h 36m 34s.xml">
+      <configuration name="JdbcQueryTest.IncNbAuthEchouees" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JdbcQueryTest_IncNbAuthEchouees - 2020.01.08 at 14h 36m 47s.xml">
+      <configuration name="JdbcQueryTest.IncNbAuthEchouees" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JdbcQueryTest_IncNbAuthEchouees - 2020.01.08 at 14h 38m 27s.xml">
+      <configuration name="JdbcQueryTest.IncNbAuthEchouees" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" side_tool="true" visible="true" weight="0.23373677" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.15458423" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" weight="0.32980332" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.2782324" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.43535188" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50075644" side_tool="true" weight="0.36824876" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.24386252" />
+      <window_info anchor="bottom" id="Log Analyzer" order="11" />
+      <window_info anchor="bottom" id="SOQL Query" order="12" />
+      <window_info anchor="bottom" id="Anonymous Apex" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/algo/PositionTest.groovy" />
+    <entry file="file://$PROJECT_DIR$/src/algo/PositionUserTest.groovy" />
+    <entry file="file://$PROJECT_DIR$/src/businessLayer/DataBaseConnection.java" />
+    <entry file="file://$PROJECT_DIR$/src/model/Router.java" />
+    <entry file="file://$PROJECT_DIR$/out/production/server/jdbc/JdbcQuery.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/types/Polygon.java" />
+    <entry file="file://$PROJECT_DIR$/src/model/types/PlaceType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../clientConnectionTest/clientConnectionTest.iml" />
+    <entry file="file://$PROJECT_DIR$/src/model/types/EquipmentType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../clientConnectionTest/src/ServerTCP.java" />
+    <entry file="file://$PROJECT_DIR$/../../../clientConnectionTest/src/ConnectionTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/tests/UserBuilderTest.java" />
+    <entry file="file://$PROJECT_DIR$/../../../clientConnectionTest/src/ClientTCP.java" />
+    <entry file="file://$PROJECT_DIR$/../../../clientConnectionTest/src/Connection.java" />
+    <entry file="file://$PROJECT_DIR$/src/entry/ClientsConnection.java" />
+    <entry file="file://$PROJECT_DIR$/src/model/RouteBuilder.java" />
+    <entry file="file://$PROJECT_DIR$/src/model/Equipment.java" />
+    <entry file="file://$PROJECT_DIR$/src/model/Place.java" />
+    <entry file="file://$PROJECT_DIR$/src/model/Point2D.java" />
+    <entry file="file://$PROJECT_DIR$/src/tests/PositionUserTest.java" />
+    <entry file="file://$PROJECT_DIR$/server.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/UserBuilder.java" />
+    <entry file="file://$PROJECT_DIR$/src/model/Visite.java" />
+    <entry file="file://$PROJECT_DIR$/src/model/PositionUser.java" />
+    <entry file="file://$PROJECT_DIR$/src/entry/PlaceControl.java" />
+    <entry file="file://$PROJECT_DIR$/src/tests/PlaceControlTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/tests/UserControlTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/JdbcConnectionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/JdbcPersistenceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="1478" selection-start-line="1478" selection-end-line="1478" />
+          <folding>
+            <element signature="e#58662#58663#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entry/PasswordGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="45" column="36" lean-forward="true" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jdbc/JdbcConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="48" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jdbc/JdbcPersistence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="23" selection-end-column="38" />
+          <folding>
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entry/BusinessLayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entry/UserControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jdbc/JdbcQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="63" column="33" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/BusinessLayerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/JdbcQueryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-53">
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding>
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#696#697#0" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#930#931#0" expanded="true" />
+            <element signature="e#974#975#0" expanded="true" />
+            <element signature="e#1010#1011#0" expanded="true" />
+            <element signature="e#1043#1044#0" expanded="true" />
+            <element signature="e#1072#1073#0" expanded="true" />
+            <element signature="e#1116#1117#0" expanded="true" />
+            <element signature="e#1152#1153#0" expanded="true" />
+            <element signature="e#1185#1186#0" expanded="true" />
+            <element signature="e#1214#1215#0" expanded="true" />
+            <element signature="e#1258#1259#0" expanded="true" />
+            <element signature="e#1294#1295#0" expanded="true" />
+            <element signature="e#1332#1333#0" expanded="true" />
+            <element signature="e#1369#1370#0" expanded="true" />
+            <element signature="e#1426#1427#0" expanded="true" />
+            <element signature="e#1478#1479#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entry/MultiThreadChatServerSync.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entry/ClientThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="69" column="21" lean-forward="true" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>server</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>postgresql-42.2.5</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
