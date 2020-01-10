@@ -5,15 +5,23 @@ public class smartCard {
   public static void main(String[] args) {
       Gemalto g=new Gemalto();
       g.initGemalto();
-      g.waitCard();
-      if(g.initCard("jonathan",g.PIN0)) {
-    	  String s=g.readIdFromCard(g.PIN0);
-    	  if(s!=null)
+      g.waitCardIn();
+      //if(g.initCard("jo",g.PIN1,g.AES1)) {
+    	 String s=g.readIdFromCard();
+    	  if(s!=null) {
     		  System.out.println(s);
+    		  s=g.readAesFromCard(g.PIN1);
+        	  if(s!=null)
+        		  System.out.println(s);
+        	  else
+        		  System.out.println("aes null");
+    	  }
     	  else
-    		  System.out.println("null");
-      }
-      g.disconnect();
+    		  System.out.println("id null");
+    	  //System.out.println("ok");
+      //}
+      g.waitCardOut();
+      g.disconnect(false);
       
       
     /* int a=250000;
@@ -30,3 +38,4 @@ public class smartCard {
       System.out.println(g.byteToString(g.stringToByte(p)));*/
   }
 }
+
