@@ -8,8 +8,9 @@ import java.net.UnknownHostException;
 
 public class Connection {
     //private  String ip ="127.0.0.1";
-    private  String ip ="192.168.0.18";
-    private  int port=2020;
+    //private  String ip ="192.168.0.18";
+	private  String ip ="192.168.0.12";
+	private  int port=2020;
     private  Socket socket = null ;
     private  PrintWriter flux_sortie = null ;
     private  BufferedReader flux_entree = null ;

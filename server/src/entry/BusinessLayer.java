@@ -46,6 +46,39 @@ public class BusinessLayer {
     }
 
 
+    public static void getKeyUsingDiffieHellman(PrintWriter flux_sortie,BufferedReader flux_entree) throws IOException, NoSuchProviderException, NoSuchAlgorithmException {
+
+        // Server Key
+        int b = 3;
+
+        // Client p, g, and key
+        double clientP, clientG, clientA, B, Bdash;
+        String Bstr;
+
+        // Server's Private Key
+        System.out.println("From Server : Private Key = " + b);
+
+        clientP = Integer.parseInt(flux_entree.readLine()); // to accept p
+        System.out.println("From Client : P = " + clientP);
+
+        clientG = Integer.parseInt(flux_entree.readLine()); // to accept g
+        System.out.println("From Client : G = " + clientG);
+
+        clientA = Double.parseDouble(flux_entree.readLine()); // to accept A
+        System.out.println("From Client : Public Key = " + clientA);
+
+        B = ((Math.pow(clientG, b)) % clientP); // calculation of B
+        Bstr = Double.toString(B);
+
+        flux_sortie.println(Bstr); // Sending B
+
+        Bdash = ((Math.pow(clientA, b)) % clientP); // calculation of Bdash
+
+        System.out.println("Secret Key to perform Symmetric Encryption = "
+                + Bdash);
+
+    }
+
     public static void checkForAuthentification(PrintWriter flux_sortie,BufferedReader flux_entree) throws IOException, NoSuchProviderException, NoSuchAlgorithmException {
 
         UserControl userControl = new UserControl();

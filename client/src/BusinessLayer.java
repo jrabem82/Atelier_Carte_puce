@@ -5,10 +5,12 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
+import java.io.RandomAccessFile;
 import java.net.Socket;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Observable;
 import java.util.Scanner;
 
@@ -41,31 +43,78 @@ public class BusinessLayer extends Observable {
         return stringToMD5String(graine+stringToMD5String(x+stringToMD5String(y+pw)));
     }
     
-    public void recupererBiometrie() throws IOException {
-/*
-    	Process p;
-        BufferedReader is;
+    public void executeBashCommand(String cmd) throws IOException, InterruptedException {
+	    	Runtime run = Runtime.getRuntime();
+	    	Process pr;
+	    	pr = run.exec(cmd);
+	    	pr.waitFor();
+	    	BufferedReader buf = new BufferedReader(new InputStreamReader(pr.getInputStream()));
+	    	String line = "";
+	    	while ((line=buf.readLine())!=null) {
+	    	System.out.println(line);
+	    	}
+    }
+    
+    public List<String> recupererHists(String path) {
+	    	try {
+				RandomAccessFile file = new RandomAccessFile(path, "r");
+				String str;
+				List<String> hists = new ArrayList();
+				while ((str = file.readLine()) != null) {
+					if(!str.isEmpty()) {
+						hists.add(str);
+					}
+				}
+				file.close();
+				return hists;
+			} catch (IOException e) {
+				e.printStackTrace();
+				return null;
+			}
+    	
+    }
+    
+    public void getKeyUsingDiffieHellman()
+    {
+        try {
+            connection.getConnection();
+            String pstr, gstr, Astr;
+            int p = 157;//23; 
+            int g = 53;//9; 
+            int a = 4; 
+            double Adash, serverB;
+            
+            connection.getFlux_sortie().println ("authentificationBiometrique") ;
+            
+            pstr = Integer.toString(p);
+            connection.getFlux_sortie().println (pstr) ;
+            
+            gstr = Integer.toString(g);
+            connection.getFlux_sortie().println (gstr) ;
+            
+            double A = ((Math.pow(g, a)) % p); // calculation of A 
+            Astr = Double.toString(A);
+            
+            connection.getFlux_sortie().println (Astr) ;
+            
+         // Client's Private Key 
+            System.out.println("From Client : Private Key = " + a); 
+            
+            serverB = Double.parseDouble(connection.getFlux_entree().readLine());
+            System.out.println("From Server : Public Key = " + serverB);
+            
+            Adash = ((Math.pow(serverB, a)) % p); // calculation of Adash 
 
-        p = new ProcessBuilder("ls").start();
-        System.out.println(p);
-        //is = new BufferedReader(new InputStreamReader(p.getInputStream()));
-*/
-    	   try {
-    	      ProcessBuilder pb = new ProcessBuilder("./hello");
-    	      pb = pb.redirectErrorStream(true); // on mélange les sorties du processus
-    	      Process p = pb.start();
-    	      InputStream is = p.getInputStream(); 
-    	      InputStreamReader isr = new InputStreamReader(is);
-    	      BufferedReader br = new BufferedReader(isr);
-    	      String ligne; 
+            System.out.println("Secret Key to perform Symmetric Encryption = "
+                    + Adash);
+            
+            connection.getFlux_sortie().println ("/quit") ;
+                
 
-    	      while (( ligne = br.readLine()) != null) { 
-    	         // ligne contient une ligne de sortie normale ou d'erreur
-    	    	  	System.out.println(ligne);
-    	      }
-    	      } catch (IOException e) {
-
-    	      } 
+        } catch (IOException e) {
+            System.out.println("erreur !!");
+            //return "";
+        }
     }
 
 
