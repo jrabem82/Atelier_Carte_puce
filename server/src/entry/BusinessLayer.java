@@ -4,6 +4,7 @@ import jdbc.JdbcConnection;
 import jdbc.JdbcPersistence;
 import jdbc.JdbcQuery;
 import model.User;
+import entry.AES;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -16,6 +17,8 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
 import java.util.Scanner;
 
 public class BusinessLayer {
@@ -45,11 +48,48 @@ public class BusinessLayer {
         return stringToMD5String(graine+stringToMD5String(x+stringToMD5String(y+pw)));
     }
 
+    public static int NbAleatoire()
+    {
+        double d = Math.random();
+        int n = (int)d;
+        n = (int)(Math.random() * 20);
+        return n;
+    }
 
-    public static void getKeyUsingDiffieHellman(PrintWriter flux_sortie,BufferedReader flux_entree) throws IOException, NoSuchProviderException, NoSuchAlgorithmException {
+    public static List<Integer> primeNumbersBruteForce(int n) {
+        List<Integer> primeNumbers = new LinkedList<>();
+        for (int i = 100; i <= n; i++) {
+            if (isPrimeBruteForce(i)) {
+                primeNumbers.add(i);
+            }
+        }
+        return primeNumbers;
+    }
+    public static boolean isPrimeBruteForce(int number) {
+        for (int i = 2; i < number; i++) {
+            if (number % i == 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+    public static int PrimeNumber(){
+        List<Integer> primeNb = primeNumbersBruteForce(200);
+        List<Integer> randomlist = new ArrayList<Integer>();
+        List<Integer> intListRandom = new ArrayList<Integer>();
+        for (int i = 0; i<20 ; i++){
+            int n = NbAleatoire();
+            randomlist.add(primeNb.get(n));
+        }
+        return randomlist.get(NbAleatoire());
+
+    }
+
+
+    public static double getKeyUsingDiffieHellman(PrintWriter flux_sortie,BufferedReader flux_entree) throws IOException, NoSuchProviderException, NoSuchAlgorithmException {
 
         // Server Key
-        int b = 3;
+        int b = NbAleatoire();
 
         // Client p, g, and key
         double clientP, clientG, clientA, B, Bdash;
@@ -76,6 +116,8 @@ public class BusinessLayer {
 
         System.out.println("Secret Key to perform Symmetric Encryption = "
                 + Bdash);
+
+        return Bdash;
 
     }
 
@@ -115,7 +157,40 @@ public class BusinessLayer {
                         flux_sortie.println("success");
                         System.out.println("server : success ");
 
+                        double key = getKeyUsingDiffieHellman(flux_sortie,flux_entree);
+
+                        String aesKeyChiffree = flux_entree.readLine();
+                        System.out.println("client : AES_key_cipher = "+aesKeyChiffree);
+
+                        String aesKeyClair = AES.decrypt((aesKeyChiffree),Double.toString(key));
+                        System.out.println("client : AES_key_clair = "+aesKeyClair);
+
+                        String histR = flux_entree.readLine();
+                        System.out.println("client : Cipher histR = "+histR);
+
+                        String histG = flux_entree.readLine();
+                        System.out.println("client : Cipher histG = "+histG);
+
+                        String histB = flux_entree.readLine();
+                        System.out.println("client : Cipher histB = "+histB);
+
+                        histR = AES.decrypt(histR,Double.toString(key));
+                        System.out.println("\t histR en clair = "+histR);
+
+                        histG = AES.decrypt(histG,Double.toString(key));
+                        System.out.println("\t histG en clair = "+histG);
+
+                        histB = AES.decrypt(histB,Double.toString(key));
+                        System.out.println("\t histB en clair = "+histB);
+
                         jdbcQuery.setNbAuthEch(userId,0);
+
+                        if(jdbcPersistence.checkForAuthBio(aesKeyClair,histR,histG,histB)){
+                            flux_sortie.println("serveur : authentification Biometrique reussie");
+                        }else{
+                            flux_sortie.println("serveur : authentification Biometrique echouee");
+                        }
+
                     }else{
                         flux_sortie.println("echec authentification");
                         System.out.println("server : echec authentification ");

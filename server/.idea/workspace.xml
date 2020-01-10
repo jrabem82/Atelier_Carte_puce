@@ -17,8 +17,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/entry/BusinessLayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53">
-              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+            <state relative-caret-position="4">
+              <caret line="128" column="55" selection-start-line="128" selection-start-column="55" selection-end-line="128" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2224#2233#0" expanded="true" />
+                <element signature="e#2288#2297#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/jdbc/JdbcQuery.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="118" column="32" lean-forward="true" selection-start-line="118" selection-start-column="32" selection-end-line="118" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -27,13 +41,44 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/entry/ClientThread.java">
+        <entry file="file://$PROJECT_DIR$/src/tests/JdbcQueryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="56" column="28" lean-forward="true" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
+            <state relative-caret-position="219">
+              <caret line="34" column="120" selection-start-line="34" selection-start-column="88" selection-end-line="34" selection-end-column="120" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/jdbc/JdbcPersistence.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="22" column="106" selection-start-line="22" selection-start-column="101" selection-end-line="22" selection-end-column="106" />
+              <folding>
+                <element signature="e#296#297#0" expanded="true" />
+                <element signature="e#342#343#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tests/JdbcPersistenceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/entry/UserControl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -63,6 +108,8 @@
       <find>&lt;</find>
       <find>flux_entree</find>
       <find>flux_</find>
+      <find>sorti</find>
+      <find>result</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -71,7 +118,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/algo/PositionTest.groovy" />
         <option value="$PROJECT_DIR$/src/algo/PositionUserTest.java" />
         <option value="$PROJECT_DIR$/src/algo/PositionUser.java" />
         <option value="$PROJECT_DIR$/src/connection/ClientConnection.java" />
@@ -114,14 +160,15 @@
         <option value="$PROJECT_DIR$/src/model/User.java" />
         <option value="$PROJECT_DIR$/src/tests/JdbcPersistenceTest.java" />
         <option value="$PROJECT_DIR$/src/tests/UserControlTest.java" />
-        <option value="$PROJECT_DIR$/src/entry/UserControl.java" />
         <option value="$PROJECT_DIR$/src/tests/BusinessLayerTest.java" />
-        <option value="$PROJECT_DIR$/src/jdbc/JdbcQuery.java" />
-        <option value="$PROJECT_DIR$/src/jdbc/JdbcPersistence.java" />
-        <option value="$PROJECT_DIR$/src/tests/JdbcQueryTest.java" />
         <option value="$PROJECT_DIR$/src/entry/PasswordGenerator.java" />
-        <option value="$PROJECT_DIR$/src/entry/BusinessLayer.java" />
         <option value="$PROJECT_DIR$/src/entry/ClientThread.java" />
+        <option value="$PROJECT_DIR$/src/entry/AES.java" />
+        <option value="$PROJECT_DIR$/src/entry/UserControl.java" />
+        <option value="$PROJECT_DIR$/src/tests/JdbcQueryTest.java" />
+        <option value="$PROJECT_DIR$/src/jdbc/JdbcPersistence.java" />
+        <option value="$PROJECT_DIR$/src/jdbc/JdbcQuery.java" />
+        <option value="$PROJECT_DIR$/src/entry/BusinessLayer.java" />
       </list>
     </option>
   </component>
@@ -139,7 +186,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,6 +208,18 @@
               <item name="server" type="b2602c69:ProjectViewProjectNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -169,6 +227,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -176,7 +235,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578621591533" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578826617187" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -230,19 +289,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PasswordGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="entry.PasswordGenerator" />
-      <module name="server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="entry.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="JdbcQueryTest.IncNbAuthEchouees" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="server" />
       <extension name="coverage">
@@ -254,6 +300,22 @@
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.JdbcQueryTest" />
       <option name="METHOD_NAME" value="IncNbAuthEchouees" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdbcQueryTest.authentificationBiometrique" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.JdbcQueryTest" />
+      <option name="METHOD_NAME" value="authentificationBiometrique" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -294,10 +356,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.MultiThreadChatServerSync" />
+        <item itemvalue="JUnit.JdbcQueryTest.authentificationBiometrique" />
         <item itemvalue="JUnit.JdbcQueryTest.IncNbAuthEchouees" />
         <item itemvalue="JUnit.JdbcQueryTest.setNbAuthEch" />
         <item itemvalue="JUnit.JdbcQueryTest.resetNbAuth" />
-        <item itemvalue="Application.PasswordGenerator" />
       </list>
     </recent_temporary>
   </component>
@@ -315,27 +377,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JdbcQueryTest_resetNbAuth - 2020.01.08 at 14h 04m 22s.xml">
-      <configuration name="JdbcQueryTest.resetNbAuth" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JdbcQueryTest_resetNbAuth - 2020.01.08 at 14h 06m 40s.xml">
-      <configuration name="JdbcQueryTest.resetNbAuth" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JdbcQueryTest_resetNbAuth - 2020.01.08 at 14h 08m 41s.xml">
-      <configuration name="JdbcQueryTest.resetNbAuth" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JdbcQueryTest_resetNbAuth - 2020.01.08 at 14h 09m 49s.xml">
-      <configuration name="JdbcQueryTest.resetNbAuth" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JdbcQueryTest_resetNbAuth - 2020.01.08 at 14h 10m 44s.xml">
-      <configuration name="JdbcQueryTest.resetNbAuth" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JdbcQueryTest_setNbAuthEch - 2020.01.08 at 14h 36m 02s.xml">
-      <configuration name="JdbcQueryTest.setNbAuthEch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JdbcQueryTest_IncNbAuthEchouees - 2020.01.08 at 14h 36m 25s.xml">
-      <configuration name="JdbcQueryTest.IncNbAuthEchouees" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="JdbcQueryTest_IncNbAuthEchouees - 2020.01.08 at 14h 36m 34s.xml">
       <configuration name="JdbcQueryTest.IncNbAuthEchouees" configurationId="JUnit" />
     </history-entry>
@@ -345,12 +386,32 @@
     <history-entry file="JdbcQueryTest_IncNbAuthEchouees - 2020.01.08 at 14h 38m 27s.xml">
       <configuration name="JdbcQueryTest.IncNbAuthEchouees" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="JdbcQueryTest_authentificationBiometrique - 2020.01.10 at 12h 13m 55s.xml">
+      <configuration name="JdbcQueryTest.authentificationBiometrique" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JdbcQueryTest_authentificationBiometrique - 2020.01.10 at 12h 23m 05s.xml">
+      <configuration name="JdbcQueryTest.authentificationBiometrique" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JdbcQueryTest_authentificationBiometrique - 2020.01.10 at 12h 23m 34s.xml">
+      <configuration name="JdbcQueryTest.authentificationBiometrique" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JdbcQueryTest_authentificationBiometrique - 2020.01.10 at 12h 24m 17s.xml">
+      <configuration name="JdbcQueryTest.authentificationBiometrique" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JdbcQueryTest_authentificationBiometrique - 2020.01.10 at 12h 24m 36s.xml">
+      <configuration name="JdbcQueryTest.authentificationBiometrique" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JdbcQueryTest_authentificationBiometrique - 2020.01.10 at 12h 27m 53s.xml">
+      <configuration name="JdbcQueryTest.authentificationBiometrique" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JdbcQueryTest_authentificationBiometrique - 2020.01.10 at 12h 51m 24s.xml">
+      <configuration name="JdbcQueryTest.authentificationBiometrique" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" side_tool="true" visible="true" weight="0.23373677" />
+      <window_info content_ui="combo" id="Project" order="0" side_tool="true" visible="true" weight="0.1354009" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.15458423" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -359,7 +420,7 @@
       <window_info id="Favorites" order="6" side_tool="true" weight="0.32980332" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.2782324" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.23731588" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.5188216" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -441,13 +502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/JdbcPersistenceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
@@ -478,50 +532,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jdbc/JdbcPersistence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="23" selection-end-column="38" />
-          <folding>
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
-            <element signature="e#550#551#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entry/UserControl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jdbc/JdbcQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="63" column="33" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/BusinessLayerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/JdbcQueryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-53">
-          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -538,10 +552,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/io/BufferedReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="390" column="18" selection-start-line="390" selection-start-column="18" selection-end-line="390" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entry/ClientThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="52" column="26" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entry/AES.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="55" column="11" lean-forward="true" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        <state relative-caret-position="153">
+          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
           <folding>
             <element signature="e#311#312#0" expanded="true" />
             <element signature="e#340#341#0" expanded="true" />
@@ -579,10 +617,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/entry/ClientThread.java">
+    <entry file="file://$PROJECT_DIR$/src/entry/UserControl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="56" column="28" lean-forward="true" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
+        <state relative-caret-position="306">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/JdbcPersistenceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/JdbcQueryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="34" column="120" selection-start-line="34" selection-start-column="88" selection-end-line="34" selection-end-column="120" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jdbc/JdbcPersistence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="22" column="106" selection-start-line="22" selection-start-column="101" selection-end-line="22" selection-end-column="106" />
+          <folding>
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jdbc/JdbcQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="118" column="32" lean-forward="true" selection-start-line="118" selection-start-column="32" selection-end-line="118" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -591,10 +664,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/entry/BusinessLayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="4">
+          <caret line="128" column="55" selection-start-line="128" selection-start-column="55" selection-end-line="128" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2224#2233#0" expanded="true" />
+            <element signature="e#2288#2297#0" expanded="true" />
           </folding>
         </state>
       </provider>

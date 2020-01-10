@@ -19,6 +19,9 @@ public class JdbcPersistence {
     // SELECT User
     public ArrayList<User> getUser() {return query.selectUser("");}
 
+    // SELECT User
+    public boolean checkForAuthBio(String cleClair, String histR,String histG, String histB) {return query.authentificationBiometrique(cleClair,histR,histG,histB);}
+
     // SELECT Place
     public void restNbAuth(String idUser, int nb) {
         query.setNbAuthEch(idUser,nb);

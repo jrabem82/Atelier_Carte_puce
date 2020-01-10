@@ -50,9 +50,7 @@ public class ClientThread extends Thread{
                     case "authentification":
                         //System.out.println("authentification");
                         checkForAuthentification(flux_sortie,flux_entree);
-                        break;
-                    case "authentificationBiometrique":
-                        getKeyUsingDiffieHellman(flux_sortie,flux_entree);
+                        //getKeyUsingDiffieHellman(flux_sortie,flux_entree);
                         break;
                     default:
                         break;

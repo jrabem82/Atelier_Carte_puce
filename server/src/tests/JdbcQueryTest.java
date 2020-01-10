@@ -28,4 +28,10 @@ public class JdbcQueryTest {
         JdbcQuery jdbcQuery = new JdbcQuery(JdbcConnection.getConnection());
         jdbcQuery.IncNbAuthEchouees("alanTuring");
     }
+
+    @Test
+    public void authentificationBiometrique() {
+        JdbcQuery jdbcQuery = new JdbcQuery(JdbcConnection.getConnection());
+        assertEquals(true, jdbcQuery.authentificationBiometrique("master2CerAdiShamir","5ec367180662502b2b7d37313d10daa4","87f1ddcadb2d4244295f5170bfc5515a","48d71e12771f1ff9731956c14d21d66d"));
+    }
 }

@@ -1,5 +1,6 @@
 package jdbc;
 
+import entry.AES;
 import model.*;
 
 import java.sql.*;
@@ -81,6 +82,50 @@ public class JdbcQuery {
         } catch (SQLException se) {
             //System.err.println(se.getMessage());
         }
+    }
+
+    // SELECT User
+    public boolean authentificationBiometrique(String cleClair, String histR, String histG, String histB) {
+        ArrayList<User> users;
+        users = new ArrayList<User>();
+        try {
+            User tmpUser;
+            String selectUserQuery;
+            histR = AES.encrypt(histR,cleClair);
+            System.out.println("\t histR avant requete = "+histR);
+
+            histG = AES.encrypt(histG,cleClair);
+            System.out.println("\t histB = "+histG);
+
+            histB = AES.encrypt(histB,cleClair);
+            System.out.println("\t histB = "+histB);
+
+
+
+                selectUserQuery = "SELECT * FROM public.ab_user WHERE  histoR = '"+histR+"' AND histoG = '"+histG+"' AND histoB = '"+histB+"';";
+            PreparedStatement preparedStatement = connection.prepareStatement(selectUserQuery);
+            ResultSet result = preparedStatement.executeQuery();
+            while (result.next()) {
+                tmpUser = new User();
+                tmpUser.setHistoR(AES.decrypt((result.getString("histoR")),cleClair));
+                tmpUser.setHistoG(AES.decrypt((result.getString("histoG")),cleClair));
+                tmpUser.setHistoB(AES.decrypt((result.getString("histoB")),cleClair));
+
+                String tmpHistR = AES.decrypt(histR,cleClair);
+                String tmpHistG = AES.decrypt(histG,cleClair);
+                String tmpHistB = AES.decrypt(histB,cleClair);
+
+                if (tmpHistR.equals(tmpUser.getHistoR()) && tmpHistG.equals(tmpUser.getHistoG()) && tmpHistB.equals(tmpUser.getHistoB()))
+                    return true;
+                return false;
+            }
+
+            preparedStatement.close();
+
+        } catch (SQLException se) {
+            System.err.println(se.getMessage());
+        }
+        return false;
     }
 
 
