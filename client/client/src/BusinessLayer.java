@@ -10,6 +10,7 @@ import java.net.Socket;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Observable;
 import java.util.Scanner;
@@ -74,17 +75,53 @@ public class BusinessLayer extends Observable {
     	
     }
     
-    public void getKeyUsingDiffieHellman()
+    public static int NbAleatoire()
+    {
+        double d = Math.random();
+        int n = (int)d;
+        n = (int)(Math.random() * 20);   
+        return n;
+    }
+    public static List<Integer> primeNumbersBruteForce(int n) {
+    List<Integer> primeNumbers = new LinkedList<>();
+    for (int i = 100; i <= n; i++) {
+        if (isPrimeBruteForce(i)) {
+            primeNumbers.add(i);
+        }
+    }
+    return primeNumbers;
+    }
+    public static boolean isPrimeBruteForce(int number) {
+    for (int i = 2; i < number; i++) {
+        if (number % i == 0) {
+            return false;
+        }
+    }
+    return true;
+}
+    public static int PrimeNumber(){
+            List<Integer> primeNb = primeNumbersBruteForce(200);
+            List<Integer> randomlist = new ArrayList<Integer>();
+            List<Integer> intListRandom = new ArrayList<Integer>();
+            for (int i = 0; i<20 ; i++){
+                int n = NbAleatoire();
+                randomlist.add(primeNb.get(n)); 
+            }
+            return randomlist.get(NbAleatoire()); 
+     
+        }
+    
+    public double getKeyUsingDiffieHellman()
     {
         try {
-            connection.getConnection();
+            //connection.getConnection();
             String pstr, gstr, Astr;
-            int p = 157;//23; 
-            int g = 53;//9; 
-            int a = 4; 
+            int p = PrimeNumber();//23; 
+            int g = PrimeNumber();;//9; 
+            int a = NbAleatoire(); 
             double Adash, serverB;
             
-            connection.getFlux_sortie().println ("authentificationBiometrique") ;
+            //connection.getFlux_sortie().println ("authentification") ;
             
             pstr = Integer.toString(p);
             connection.getFlux_sortie().println (pstr) ;
@@ -108,23 +145,25 @@ public class BusinessLayer extends Observable {
             System.out.println("Secret Key to perform Symmetric Encryption = "
                     + Adash);
             
-            connection.getFlux_sortie().println ("/quit") ;
+            //connection.getFlux_sortie().println ("/quit") ;
+            
+            return Adash;
                 
 
         } catch (IOException e) {
             System.out.println("erreur !!");
-            //return "";
+            return -1;
         }
     }
 
 
-    public void checkForAuthentification(String userId)
+    public void checkForAuthentification(String userId, Gemalto g)
     {
         try {
             connection.getConnection();
             String token, reply;
             boolean success = false;
-            while (!success){
+            //while (!success){
                 connection.getFlux_sortie().println ("authentification") ;
                 connection.getFlux_sortie().println (userId) ;
                 System.out.println("client : idUser = "+userId);
@@ -156,20 +195,46 @@ public class BusinessLayer extends Observable {
 
                         if (reply.equals("success")){
                             success = true;
-                            //connection.getFlux_sortie().println ("/quit");
+                            double key = getKeyUsingDiffieHellman();
+                            
+                            String codePin = "286331153";
+                        	
+                            String keyAES = g.readAesFromCard(g.PIN1);
+                            
+                            connection.getFlux_sortie().println (AES.encrypt((keyAES), Double.toString(key)));
+                            System.out.println("client : Cle AES = "+keyAES);
+                            
+                            //
+                            
+                            List<String> recupererHists = recupererHists("/Users/yanisbaour/Desktop/client/test.txt");
+                            
+                            connection.getFlux_sortie().println (AES.encrypt((recupererHists.get(0)),Double.toString(key)));
+                            System.out.println("client : histR = "+recupererHists.get(0));
+                            
+                            connection.getFlux_sortie().println (AES.encrypt((recupererHists.get(1)),Double.toString(key)));
+                            System.out.println("client : histG = "+recupererHists.get(1));
+                            
+                            connection.getFlux_sortie().println (AES.encrypt((recupererHists.get(2)),Double.toString(key)));
+                            System.out.println("client : histB = "+recupererHists.get(2));
+                            
+                            reply = connection.getFlux_entree().readLine() ;
+                            System.out.println("server : reply = "+reply);
+                            
+                            
+                            
                         }else if(reply.equals("number of authorized attempts exceeded")){
                         	   connection.getFlux_sortie().println ("/quit");
                         	   System.out.println("client : quit");
-                            break;
+                            //break;
                         }
                     }
                 }else{
                 		connection.getFlux_sortie().println ("/quit");
                 		System.out.println("client : quit");
-                    break; //if number of authorized attempts exceeded
+                    //break; //if number of authorized attempts exceeded
                     //return "";
                 }
-            }
+            //}
 
         } catch (IOException e) {
             System.out.println("erreur !!");
